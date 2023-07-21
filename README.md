@@ -18,33 +18,35 @@ Install the required Python libraries:
 
 For Linux:
 
-bash
+```bash
 Copy code
 pip install pyudev
+
 For D-Bus version:
 
-bash
+```bash
+
 Copy code
 pip install dbus-python
 For D-Bus using gi.repository version:
 
-bash
+```bash
 Copy code
 pip install PyGObject
 Usage
 Navigate to the project directory:
 
-bash
+```bash
 Copy code
 cd charger_automation
 Make sure the limitd.sh script has the correct permissions to execute:
 
-bash
+```bash
 Copy code
 chmod +x lapcharge/lapchar/limitd.sh
 Run the Python script to start monitoring charger connection events:
 
-bash
+```bash
 Copy code
 python charger_automation.py
 The script will now listen for charger connection events and automatically run the limitd.sh script with the specified charge limit when the charger is plugged in.
