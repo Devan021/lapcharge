@@ -18,22 +18,23 @@ Install the required Python libraries:
 
 For Linux:
 
-```bash
-Copy code
-pip install pyudev
+  ```bash
+   Copy code
+   pip install pyudev
+
 
 For D-Bus version:
 
-```bash
+   ```bash
 
-Copy code
-pip install dbus-python
+    Copy code
+    pip install dbus-python
 For D-Bus using gi.repository version:
 
-```bash
-Copy code
-pip install PyGObject
-Usage
+    ```bash
+    Copy code
+    pip install PyGObject
+ Usage
 Navigate to the project directory:
 
 ```bash
